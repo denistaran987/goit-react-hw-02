@@ -1,0 +1,18 @@
+.feedback-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 8px;
+  font-size: 18px;
+}
+
+.good,
+.positive {
+  color: green;
+}
+.neutral {
+  color: orange;
+}
+.bad {
+  color: red;
+}
